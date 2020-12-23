@@ -1,0 +1,3464 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 392000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Get",
+        "description": "",
+        "id": "--mock-api;get",
+        "after": [
+          {
+            "result": {
+              "duration": 439000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 27000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "que faco uma requisicao GET",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n\tat java.util.regex.Matcher.getTextLength(Matcher.java:1283)\n\tat java.util.regex.Matcher.reset(Matcher.java:309)\n\tat java.util.regex.Matcher.\u003cinit\u003e(Matcher.java:229)\n\tat java.util.regex.Pattern.matcher(Pattern.java:1093)\n\tat com.aventstack.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:26)\n\tat com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:407)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:971)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:983)\n\tat br.com.itau.friday.framework.Hooks.stepResult(Hooks.java:338)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\n\tat cucumber.runner.TestCase.run(TestCase.java:44)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\n",
+                  "duration": 11359000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "valido status response 200",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 8000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "retona status e conteudo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 5000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MockAPI"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@GetMock"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10077000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Get com filtro",
+        "description": "",
+        "id": "--mock-api;get-com-filtro",
+        "after": [
+          {
+            "result": {
+              "duration": 396000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 31000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 21000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 213000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "que faco uma requisicao GET com filtro",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n\tat java.util.regex.Matcher.getTextLength(Matcher.java:1283)\n\tat java.util.regex.Matcher.reset(Matcher.java:309)\n\tat java.util.regex.Matcher.\u003cinit\u003e(Matcher.java:229)\n\tat java.util.regex.Pattern.matcher(Pattern.java:1093)\n\tat com.aventstack.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:26)\n\tat com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:407)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:971)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:983)\n\tat br.com.itau.friday.framework.Hooks.stepResult(Hooks.java:338)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\n\tat cucumber.runner.TestCase.run(TestCase.java:44)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\n",
+                  "duration": 902000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "valido status response 200",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 9000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "retona status e conteudo filtrado",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 8000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MockAPI"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@GetMockFilter"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9766000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Post",
+        "description": "",
+        "id": "--mock-api;post",
+        "after": [
+          {
+            "result": {
+              "duration": 410000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 22000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 211000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "que faco uma requisicao Post",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n\tat java.util.regex.Matcher.getTextLength(Matcher.java:1283)\n\tat java.util.regex.Matcher.reset(Matcher.java:309)\n\tat java.util.regex.Matcher.\u003cinit\u003e(Matcher.java:229)\n\tat java.util.regex.Pattern.matcher(Pattern.java:1093)\n\tat com.aventstack.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:26)\n\tat com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:407)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:971)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:983)\n\tat br.com.itau.friday.framework.Hooks.stepResult(Hooks.java:338)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\n\tat cucumber.runner.TestCase.run(TestCase.java:44)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\n",
+                  "duration": 856000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "valido status response 201",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 9000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "retona status e conteudo do Post",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 8000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MockAPI"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@PostMock"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9121000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Put",
+        "description": "",
+        "id": "--mock-api;put",
+        "after": [
+          {
+            "result": {
+              "duration": 430000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 49000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 244000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "que faco uma requisicao Put",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n\tat java.util.regex.Matcher.getTextLength(Matcher.java:1283)\n\tat java.util.regex.Matcher.reset(Matcher.java:309)\n\tat java.util.regex.Matcher.\u003cinit\u003e(Matcher.java:229)\n\tat java.util.regex.Pattern.matcher(Pattern.java:1093)\n\tat com.aventstack.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:26)\n\tat com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:407)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:971)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:983)\n\tat br.com.itau.friday.framework.Hooks.stepResult(Hooks.java:338)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\n\tat cucumber.runner.TestCase.run(TestCase.java:44)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\n",
+                  "duration": 864000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "valido status response 200",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 10000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "retona status e conteudo do Put",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 9000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MockAPI"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@PutMock"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8815000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Delete",
+        "description": "",
+        "id": "--mock-api;delete",
+        "after": [
+          {
+            "result": {
+              "duration": 419000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 38000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 25000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 198000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "que faco uma requisicao Delete",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n\tat java.util.regex.Matcher.getTextLength(Matcher.java:1283)\n\tat java.util.regex.Matcher.reset(Matcher.java:309)\n\tat java.util.regex.Matcher.\u003cinit\u003e(Matcher.java:229)\n\tat java.util.regex.Pattern.matcher(Pattern.java:1093)\n\tat com.aventstack.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:26)\n\tat com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:407)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:971)\n\tat com.aventstack.extentreports.ExtentTest.skip(ExtentTest.java:983)\n\tat br.com.itau.friday.framework.Hooks.stepResult(Hooks.java:338)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\n\tat cucumber.runner.TestCase.run(TestCase.java:44)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\n",
+                  "duration": 1048000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "valido status response 200",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 10000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "retona status e conteudo do Delete",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 8000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MockAPI"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@DeleteMock"
+          }
+        ]
+      }
+    ],
+    "name": "- MOCK API",
+    "description": "",
+    "id": "--mock-api",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/1Mock_API.feature",
+    "tags": [
+      {
+        "name": "@MockAPI",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 10
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 12000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Testar a calculadora com Winuim",
+                  "Executar uma soma simples"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11127000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Air-de-Fredi\u0027, ip: \u0027192.168.15.22\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0\u0027\nDriver info: driver.version: WiniumDriver\n\tat org.openqa.selenium.winium.WiniumDriverCommandExecutor.execute(WiniumDriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.winium.WiniumDriver.\u003cinit\u003e(WiniumDriver.java:84)\n\tat br.com.itau.friday.framework.Hooks.openWiniumDeskop(Hooks.java:469)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\nCaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9999\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\n\tat okhttp3.RealCall.execute(RealCall.java:77)\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.winium.WiniumDriverCommandExecutor.execute(WiniumDriverCommandExecutor.java:78)\n\t... 45 more\nCaused by: java.net.ConnectException: Connection refused\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)\n\t... 67 more\n",
+              "duration": 1015155000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.openWiniumDeskop(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "CT-Calc - Testar calc",
+        "description": "",
+        "id": "testar-calc-com-o-winium;ct-calc---testar-calc;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2017966000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeProcess(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 549000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 181000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "que abro o programa \"Calculator.exe\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 8000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "passo os valores",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 8000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "resultado",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 8000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DesckTop"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@winium"
+          },
+          {
+            "name": "@closeProcess"
+          },
+          {
+            "name": "@CT002"
+          }
+        ]
+      }
+    ],
+    "name": "Testar Calc com o Winium",
+    "description": "",
+    "id": "testar-calc-com-o-winium",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/java/features/2Calc.feature",
+    "tags": [
+      {
+        "name": "@DesckTop",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 11
+        }
+      },
+      {
+        "name": "@winium",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 23
+        }
+      },
+      {
+        "name": "@closeProcess",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 31
+        }
+      }
+    ]
+  },
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7480000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1262933000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Logar na Aplicacao da Conductor",
+                  "Logar na Aplicacao da Conductor com sucesso"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10322000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 13564440000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Logar na Aplicacao da Conductor com sucesso.",
+        "description": "",
+        "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor;logar-na-aplicacao-da-conductor-com-sucesso.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 227631000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 563000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 28000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 17000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 224000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "que estou na pagina de login atraves da url",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n",
+                  "duration": 836000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "preencho o campo login \"douglasgelli@gmail.com\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 9000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "preencho o campo password \"12345678\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 5000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "clico no botao Signin",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 5000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "a aplicacao exibe a mensagem \"Bem vindo, Douglas Gelli!\" de bem vindo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 14000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "clico no botao Sair",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 5000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@CT001"
+          },
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@closeBrowser"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 430000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 157369000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Logar na Aplicacao da Conductor",
+                  "Logar na Aplicacao da Conductor com sucesso"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 28314000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2495024000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Logar na Aplicacao da Conductor com sucesso.",
+        "description": "",
+        "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor;logar-na-aplicacao-da-conductor-com-sucesso.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 241134000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1054000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 75000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 30000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 265000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "que estou na pagina de login atraves da url",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n",
+                  "duration": 1154000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "preencho o campo login \"douglasgelli@gmail.com\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 9000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "preencho o campo password \"12345678\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 11000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "clico no botao Signin",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "a aplicacao exibe a mensagem \"Bem vindo Douglas Gelli!\" de bem vindo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "clico no botao Sair",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@CT001"
+          },
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@closeBrowser"
+          }
+        ]
+      }
+    ],
+    "name": "Logar na aplicacao de cadastro de clientes da Conductor",
+    "description": "",
+    "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/3Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 131000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 73689000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Logar na Aplicacao da Conductor",
+                  "Logar na Aplicacao da Conductor com sucesso"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5335000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2037162000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openChromeBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Logar na Aplicacao da Conductor com sucesso com o Chrome.",
+        "description": "",
+        "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor;logar-na-aplicacao-da-conductor-com-sucesso-com-o-chrome.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 176005000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2565000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 77000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 586000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "que estou na pagina de login atraves da url",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n",
+                  "duration": 1061000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "preencho o campo login \"douglasgelli@gmail.com\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 25000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "preencho o campo password \"12345678\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "clico no botao Signin",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "a aplicacao exibe a mensagem \"Bem vindo, Douglas Gelli!\" de bem vindo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "clico no botao Sair",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 7000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@chrome"
+          },
+          {
+            "name": "@closeBrowser"
+          },
+          {
+            "name": "@CT001"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 113000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 77477000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Logar na Aplicacao da Conductor",
+                  "Logar na Aplicacao da Conductor com sucesso"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13707000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2097082000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openChromeBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Logar na Aplicacao da Conductor com sucesso com o Chrome.",
+        "description": "",
+        "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor;logar-na-aplicacao-da-conductor-com-sucesso-com-o-chrome.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 142120000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 488000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 70000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 20000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 190000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "que estou na pagina de login atraves da url",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n",
+                  "duration": 829000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "preencho o campo login \"douglasgelli@gmail.com\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 6000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "preencho o campo password \"12345678\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "clico no botao Signin",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "a aplicacao exibe a mensagem \"Bem vindo Douglas Gelli!\" de bem vindo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "clico no botao Sair",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@chrome"
+          },
+          {
+            "name": "@closeBrowser"
+          },
+          {
+            "name": "@CT001"
+          }
+        ]
+      }
+    ],
+    "name": "Logar na aplicacao de cadastro de clientes da Conductor",
+    "description": "",
+    "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/3LoginChrome.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 8
+        }
+      },
+      {
+        "name": "@chrome",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 20
+        }
+      },
+      {
+        "name": "@closeBrowser",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 28
+        }
+      }
+    ]
+  },
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 11000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Logar na Aplicacao da Conductor",
+                  "Logar na Aplicacao da Conductor com sucesso"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17305000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Air-de-Fredi\u0027, ip: \u0027192.168.15.22\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0\u0027\nDriver info: driver.version: EdgeDriver\n\tat org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)\n\tat org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.edge.EdgeDriver.\u003cinit\u003e(EdgeDriver.java:141)\n\tat org.openqa.selenium.edge.EdgeDriver.\u003cinit\u003e(EdgeDriver.java:96)\n\tat br.com.itau.friday.framework.DriverFactory.startDriver(DriverFactory.java:66)\n\tat br.com.itau.friday.framework.Hooks.openEDGEBrowser(Hooks.java:416)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\nCaused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:11346/status] to be available after 20002 ms\n\tat org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)\n\tat org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)\n\t... 49 more\nCaused by: java.util.concurrent.TimeoutException\n\tat java.util.concurrent.FutureTask.get(FutureTask.java:205)\n\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n\tat org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)\n\t... 50 more\n",
+              "duration": 30498104000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.openEDGEBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Logar na Aplicacao da Conductor com sucesso com o Edge.",
+        "description": "",
+        "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor;logar-na-aplicacao-da-conductor-com-sucesso-com-o-edge.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 50000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 14917000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 61000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 18000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 167000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "que estou na pagina de login atraves da url",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 6000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "preencho o campo login \"douglasgelli@gmail.com\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 5000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "preencho o campo password \"12345678\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "clico no botao Signin",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "a aplicacao exibe a mensagem \"Bem vindo, Douglas Gelli!\" de bem vindo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "clico no botao Sair",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@edge"
+          },
+          {
+            "name": "@closeBrowser"
+          },
+          {
+            "name": "@CT001"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Logar na Aplicacao da Conductor",
+                  "Logar na Aplicacao da Conductor com sucesso"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5028000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Air-de-Fredi\u0027, ip: \u0027192.168.15.22\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0\u0027\nDriver info: driver.version: EdgeDriver\n\tat org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)\n\tat org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.edge.EdgeDriver.\u003cinit\u003e(EdgeDriver.java:141)\n\tat org.openqa.selenium.edge.EdgeDriver.\u003cinit\u003e(EdgeDriver.java:96)\n\tat br.com.itau.friday.framework.DriverFactory.startDriver(DriverFactory.java:66)\n\tat br.com.itau.friday.framework.Hooks.openEDGEBrowser(Hooks.java:416)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\nCaused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:21187/status] to be available after 20005 ms\n\tat org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)\n\tat org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)\n\t... 49 more\nCaused by: java.util.concurrent.TimeoutException\n\tat java.util.concurrent.FutureTask.get(FutureTask.java:205)\n\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\n\tat org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)\n\t... 50 more\n",
+              "duration": 20140829000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.openEDGEBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Logar na Aplicacao da Conductor com sucesso com o Edge.",
+        "description": "",
+        "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor;logar-na-aplicacao-da-conductor-com-sucesso-com-o-edge.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 53000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 259000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 31000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 17000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 111000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "que estou na pagina de login atraves da url",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "preencho o campo login \"douglasgelli@gmail.com\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "preencho o campo password \"12345678\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 10000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "clico no botao Signin",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 4000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "a aplicacao exibe a mensagem \"Bem vindo Douglas Gelli!\" de bem vindo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "clico no botao Sair",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@edge"
+          },
+          {
+            "name": "@closeBrowser"
+          },
+          {
+            "name": "@CT001"
+          }
+        ]
+      }
+    ],
+    "name": "Logar na aplicacao de cadastro de clientes da Conductor",
+    "description": "",
+    "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/3LoginEDGE.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 8
+        }
+      },
+      {
+        "name": "@edge",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 20
+        }
+      },
+      {
+        "name": "@closeBrowser",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 26
+        }
+      }
+    ]
+  },
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5530000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 96728000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Logar na Aplicacao da Conductor",
+                  "Logar na Aplicacao da Conductor com sucesso"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7470000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 14670434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openFireFoxBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Logar na Aplicacao da Conductor com sucesso com o FireFox.",
+        "description": "",
+        "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor;logar-na-aplicacao-da-conductor-com-sucesso-com-o-firefox.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1045945000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 397000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 36000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 190000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 217000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "que estou na pagina de login atraves da url",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n",
+                  "duration": 11803000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "preencho o campo login \"douglasgelli@gmail.com\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 9000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "preencho o campo password \"12345678\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "clico no botao Signin",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "a aplicacao exibe a mensagem \"Bem vindo, Douglas Gelli!\" de bem vindo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "clico no botao Sair",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@firefox"
+          },
+          {
+            "name": "@closeBrowser"
+          },
+          {
+            "name": "@CT001"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 211000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 135105000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Logar na Aplicacao da Conductor",
+                  "Logar na Aplicacao da Conductor com sucesso"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 25585000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4827444000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openFireFoxBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Logar na Aplicacao da Conductor com sucesso com o FireFox.",
+        "description": "",
+        "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor;logar-na-aplicacao-da-conductor-com-sucesso-com-o-firefox.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1006216000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 346000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 34000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 14000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 99000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "que estou na pagina de login atraves da url",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException\n",
+                  "duration": 18305000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "preencho o campo login \"douglasgelli@gmail.com\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "preencho o campo password \"12345678\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 2000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "clico no botao Signin",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 2000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "a aplicacao exibe a mensagem \"Bem vindo Douglas Gelli!\" de bem vindo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 2000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "clico no botao Sair",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 2000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@firefox"
+          },
+          {
+            "name": "@closeBrowser"
+          },
+          {
+            "name": "@CT001"
+          }
+        ]
+      }
+    ],
+    "name": "Logar na aplicacao de cadastro de clientes da Conductor",
+    "description": "",
+    "id": "logar-na-aplicacao-de-cadastro-de-clientes-da-conductor",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/3LoginFox.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 8
+        }
+      },
+      {
+        "name": "@firefox",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 20
+        }
+      },
+      {
+        "name": "@closeBrowser",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 29
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 3000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Teste de funcionalidades",
+                  "todas as funções com sucessoo"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16250000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "error_message": "io.appium.java_client.service.local.InvalidNodeJSInstance: Node.js is not installed!\n\tat io.appium.java_client.service.local.AppiumServiceBuilder.findDefaultExecutable(AppiumServiceBuilder.java:197)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:71)\n\tat br.com.itau.friday.framework.Hooks.startServer(Hooks.java:667)\n\tat br.com.itau.friday.framework.Hooks.openMobile(Hooks.java:501)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\nCaused by: java.lang.NullPointerException: Unable to find executable for: node\n\tat com.google.common.base.Preconditions.checkNotNull(Preconditions.java:987)\n\tat org.openqa.selenium.os.OsProcess.\u003cinit\u003e(OsProcess.java:64)\n\tat org.openqa.selenium.os.CommandLine.\u003cinit\u003e(CommandLine.java:38)\n\tat io.appium.java_client.service.local.AppiumServiceBuilder.findDefaultExecutable(AppiumServiceBuilder.java:193)\n\t... 44 more\n",
+              "duration": 70988000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.openMobile(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Algumas funcoes para mobile",
+        "description": "",
+        "id": "testar-mobile;algumas-funcoes-para-mobile",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat br.com.itau.friday.framework.Hooks.resetMobileApp(Hooks.java:540)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:48)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\n",
+              "duration": 330000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.resetMobileApp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 259000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 30000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 12000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 128000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "que realizo algumas funcoes",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 1000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mobile"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@MobileCt1"
+          },
+          {
+            "name": "@mobile"
+          },
+          {
+            "name": "@resetMobileApp"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Evidenciar Teste;",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "que utilizo o word para evidencias com as informacoes de execucao",
+            "match": {
+              "location": "Hooks.queUtilizoWordParaEvidenciasComSeguintesInformacoes_id_nomeCT_objetivo_resultadoEsperado_resultadoObtido_Executor_SP_Cdt(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 5000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Teste de funcionalidades",
+                  "todas as funções com sucessoo"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8183000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "error_message": "io.appium.java_client.service.local.InvalidNodeJSInstance: Node.js is not installed!\n\tat io.appium.java_client.service.local.AppiumServiceBuilder.findDefaultExecutable(AppiumServiceBuilder.java:197)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:71)\n\tat br.com.itau.friday.framework.Hooks.startServer(Hooks.java:667)\n\tat br.com.itau.friday.framework.Hooks.openMobile(Hooks.java:501)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\nCaused by: java.lang.NullPointerException: Unable to find executable for: node\n\tat com.google.common.base.Preconditions.checkNotNull(Preconditions.java:987)\n\tat org.openqa.selenium.os.OsProcess.\u003cinit\u003e(OsProcess.java:64)\n\tat org.openqa.selenium.os.CommandLine.\u003cinit\u003e(CommandLine.java:38)\n\tat io.appium.java_client.service.local.AppiumServiceBuilder.findDefaultExecutable(AppiumServiceBuilder.java:193)\n\t... 44 more\n",
+              "duration": 40129000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.openMobile(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Diversas funcoes para mobile",
+        "description": "",
+        "id": "testar-mobile;diversas-funcoes-para-mobile",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat br.com.itau.friday.framework.Hooks.closeMobile(Hooks.java:527)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:48)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\n",
+              "duration": 192000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.closeMobile(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 842000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TimeTeste(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 495000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.wordGeneration(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 562000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.excelReport(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 547000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.resultado(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "que abro o app e ja faz tudo",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 2000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hooks.stepResult(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mobile"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@MobileCt2"
+          },
+          {
+            "name": "@mobile"
+          },
+          {
+            "name": "@closeMobile"
+          }
+        ]
+      }
+    ],
+    "name": "Testar Mobile",
+    "description": "",
+    "id": "testar-mobile",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/java/features/4Mobile.feature",
+    "tags": [
+      {
+        "name": "@mobile",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 9
+        }
+      }
+    ]
+  }
+]

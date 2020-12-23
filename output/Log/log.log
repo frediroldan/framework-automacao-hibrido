@@ -1,0 +1,165 @@
+INFO - 22/12/2020 14:45:02 -  
+INFO - 22/12/2020 14:45:02 - ************* GET ************ 
+INFO - 22/12/2020 14:45:02 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:02 - Step: ==> que faco uma requisicao GET <== 
+INFO - 22/12/2020 14:45:02 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:45:02 - 00:00:00,387 
+INFO - 22/12/2020 14:45:02 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:02 -  
+INFO - 22/12/2020 14:45:02 - ************* GET COM FILTRO ************ 
+INFO - 22/12/2020 14:45:02 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:02 - Step: ==> que faco uma requisicao GET com filtro <== 
+INFO - 22/12/2020 14:45:02 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:45:02 - 00:00:00,002 
+INFO - 22/12/2020 14:45:02 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:02 -  
+INFO - 22/12/2020 14:45:02 - ************* POST ************ 
+INFO - 22/12/2020 14:45:02 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:02 - Step: ==> que faco uma requisicao Post <== 
+INFO - 22/12/2020 14:45:02 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:45:02 - 00:00:00,002 
+INFO - 22/12/2020 14:45:02 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:02 -  
+INFO - 22/12/2020 14:45:02 - ************* PUT ************ 
+INFO - 22/12/2020 14:45:02 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:02 - Step: ==> que faco uma requisicao Put <== 
+INFO - 22/12/2020 14:45:02 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:45:02 - 00:00:00,002 
+INFO - 22/12/2020 14:45:02 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:02 -  
+INFO - 22/12/2020 14:45:02 - ************* DELETE ************ 
+INFO - 22/12/2020 14:45:02 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:02 - Step: ==> que faco uma requisicao Delete <== 
+INFO - 22/12/2020 14:45:02 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:45:02 - 00:00:00,002 
+INFO - 22/12/2020 14:45:02 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:02 -  
+INFO - 22/12/2020 14:45:02 - ************* CT-CALC - TESTAR CALC ************ 
+INFO - 22/12/2020 14:45:02 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:03 - Finalizar processo: calculator.exe 
+ERROR - 22/12/2020 14:45:03 - java.io.IOException: error=2, No such file or directory 
+INFO - 22/12/2020 14:45:03 - Nao Finalizado 
+INFO - 22/12/2020 14:45:03 - Finalizar processo: Winium.Desktop.Driver.exe 
+ERROR - 22/12/2020 14:45:03 - java.io.IOException: error=2, No such file or directory 
+INFO - 22/12/2020 14:45:03 - Nao Finalizado 
+INFO - 22/12/2020 14:45:05 - Fim do processo: calculator.exe 
+INFO - 22/12/2020 14:45:05 - Fim do processo: Winium.Desktop.Driver.exe 
+INFO - 22/12/2020 14:45:05 - 00:00:03,035 
+INFO - 22/12/2020 14:45:05 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:05 -  
+INFO - 22/12/2020 14:45:05 - ************* LOGAR NA APLICACAO DA CONDUCTOR COM SUCESSO. ************ 
+INFO - 22/12/2020 14:45:05 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:05 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot! 
+INFO - 22/12/2020 14:45:05 - ====> http://tiny.cc/wdm-survey <==== 
+INFO - 22/12/2020 14:45:07 - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine) 
+INFO - 22/12/2020 14:45:07 - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver 
+INFO - 22/12/2020 14:45:08 - Downloading https://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_mac64.zip 
+INFO - 22/12/2020 14:45:11 - Extracting binary from compressed file chromedriver_mac64.zip 
+INFO - 22/12/2020 14:45:12 - Exporting webdriver.chrome.driver as /Users/cloud/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver 
+INFO - 22/12/2020 14:45:19 - Step: ==> que utilizo o word para evidencias com as informacoes de execucao <== 
+INFO - 22/12/2020 14:45:19 - Step: ==> PASSED <== 
+INFO - 22/12/2020 14:45:20 - Step: ==> que estou na pagina de login atraves da url <== 
+INFO - 22/12/2020 14:45:20 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:45:20 - 00:00:15,065 
+INFO - 22/12/2020 14:45:20 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:20 -  
+INFO - 22/12/2020 14:45:20 - ************* LOGAR NA APLICACAO DA CONDUCTOR COM SUCESSO. ************ 
+INFO - 22/12/2020 14:45:20 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:20 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot! 
+INFO - 22/12/2020 14:45:20 - ====> http://tiny.cc/wdm-survey <==== 
+INFO - 22/12/2020 14:45:20 - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine) 
+INFO - 22/12/2020 14:45:20 - Exporting webdriver.chrome.driver as /Users/cloud/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver 
+INFO - 22/12/2020 14:45:23 - Step: ==> que utilizo o word para evidencias com as informacoes de execucao <== 
+INFO - 22/12/2020 14:45:23 - Step: ==> PASSED <== 
+INFO - 22/12/2020 14:45:23 - Step: ==> que estou na pagina de login atraves da url <== 
+INFO - 22/12/2020 14:45:23 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:45:23 - 00:00:02,900 
+INFO - 22/12/2020 14:45:23 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:23 -  
+INFO - 22/12/2020 14:45:23 - ************* LOGAR NA APLICACAO DA CONDUCTOR COM SUCESSO COM O CHROME. ************ 
+INFO - 22/12/2020 14:45:23 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:23 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot! 
+INFO - 22/12/2020 14:45:23 - ====> http://tiny.cc/wdm-survey <==== 
+INFO - 22/12/2020 14:45:23 - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine) 
+INFO - 22/12/2020 14:45:23 - Exporting webdriver.chrome.driver as /Users/cloud/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver 
+INFO - 22/12/2020 14:45:25 - Step: ==> que utilizo o word para evidencias com as informacoes de execucao <== 
+INFO - 22/12/2020 14:45:25 - Step: ==> PASSED <== 
+INFO - 22/12/2020 14:45:25 - Step: ==> que estou na pagina de login atraves da url <== 
+INFO - 22/12/2020 14:45:25 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:45:26 - 00:00:02,292 
+INFO - 22/12/2020 14:45:26 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:26 -  
+INFO - 22/12/2020 14:45:26 - ************* LOGAR NA APLICACAO DA CONDUCTOR COM SUCESSO COM O CHROME. ************ 
+INFO - 22/12/2020 14:45:26 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:26 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot! 
+INFO - 22/12/2020 14:45:26 - ====> http://tiny.cc/wdm-survey <==== 
+INFO - 22/12/2020 14:45:26 - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine) 
+INFO - 22/12/2020 14:45:26 - Exporting webdriver.chrome.driver as /Users/cloud/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver 
+INFO - 22/12/2020 14:45:28 - Step: ==> que utilizo o word para evidencias com as informacoes de execucao <== 
+INFO - 22/12/2020 14:45:28 - Step: ==> PASSED <== 
+INFO - 22/12/2020 14:45:28 - Step: ==> que estou na pagina de login atraves da url <== 
+INFO - 22/12/2020 14:45:28 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:45:28 - 00:00:02,319 
+INFO - 22/12/2020 14:45:28 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:28 -  
+INFO - 22/12/2020 14:45:28 - ************* LOGAR NA APLICACAO DA CONDUCTOR COM SUCESSO COM O EDGE. ************ 
+INFO - 22/12/2020 14:45:28 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:28 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot! 
+INFO - 22/12/2020 14:45:28 - ====> http://tiny.cc/wdm-survey <==== 
+INFO - 22/12/2020 14:45:29 - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver 
+INFO - 22/12/2020 14:45:29 - Downloading https://msedgedriver.azureedge.net/87.0.664.66/edgedriver_mac64.zip 
+INFO - 22/12/2020 14:45:38 - Extracting binary from compressed file edgedriver_mac64.zip 
+INFO - 22/12/2020 14:45:38 - Exporting webdriver.edge.driver as /Users/cloud/.m2/repository/webdriver/edgedriver/mac64/x64/87.0.664.66/msedgedriver 
+INFO - 22/12/2020 14:45:58 - 00:00:30,500 
+INFO - 22/12/2020 14:45:58 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:45:58 -  
+INFO - 22/12/2020 14:45:58 - ************* LOGAR NA APLICACAO DA CONDUCTOR COM SUCESSO COM O EDGE. ************ 
+INFO - 22/12/2020 14:45:58 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:45:58 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot! 
+INFO - 22/12/2020 14:45:58 - ====> http://tiny.cc/wdm-survey <==== 
+INFO - 22/12/2020 14:45:59 - Exporting webdriver.edge.driver as /Users/cloud/.m2/repository/webdriver/edgedriver/mac64/x64/87.0.664.66/msedgedriver 
+INFO - 22/12/2020 14:46:19 - 00:00:20,142 
+INFO - 22/12/2020 14:46:19 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:46:19 -  
+INFO - 22/12/2020 14:46:19 - ************* LOGAR NA APLICACAO DA CONDUCTOR COM SUCESSO COM O FIREFOX. ************ 
+INFO - 22/12/2020 14:46:19 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:46:19 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot! 
+INFO - 22/12/2020 14:46:19 - ====> http://tiny.cc/wdm-survey <==== 
+INFO - 22/12/2020 14:46:20 - Using geckodriver 0.24.0 (since Firefox 66 is installed in your machine) 
+INFO - 22/12/2020 14:46:20 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver 
+INFO - 22/12/2020 14:46:21 - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-macos.tar.gz 
+INFO - 22/12/2020 14:46:25 - Extracting binary from compressed file geckodriver-v0.24.0-macos.tar.gz 
+INFO - 22/12/2020 14:46:25 - Exporting webdriver.gecko.driver as /Users/cloud/.m2/repository/webdriver/geckodriver/macos/0.24.0/geckodriver 
+INFO - 22/12/2020 14:46:33 - Step: ==> que utilizo o word para evidencias com as informacoes de execucao <== 
+INFO - 22/12/2020 14:46:33 - Step: ==> PASSED <== 
+INFO - 22/12/2020 14:46:33 - Step: ==> que estou na pagina de login atraves da url <== 
+INFO - 22/12/2020 14:46:33 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:46:34 - 00:00:15,834 
+INFO - 22/12/2020 14:46:34 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:46:34 -  
+INFO - 22/12/2020 14:46:34 - ************* LOGAR NA APLICACAO DA CONDUCTOR COM SUCESSO COM O FIREFOX. ************ 
+INFO - 22/12/2020 14:46:34 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:46:34 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot! 
+INFO - 22/12/2020 14:46:34 - ====> http://tiny.cc/wdm-survey <==== 
+INFO - 22/12/2020 14:46:35 - Using geckodriver 0.24.0 (since Firefox 66 is installed in your machine) 
+INFO - 22/12/2020 14:46:35 - Exporting webdriver.gecko.driver as /Users/cloud/.m2/repository/webdriver/geckodriver/macos/0.24.0/geckodriver 
+INFO - 22/12/2020 14:46:39 - Step: ==> que utilizo o word para evidencias com as informacoes de execucao <== 
+INFO - 22/12/2020 14:46:39 - Step: ==> PASSED <== 
+INFO - 22/12/2020 14:46:39 - Step: ==> que estou na pagina de login atraves da url <== 
+INFO - 22/12/2020 14:46:39 - Step: ==> UNDEFINED <== 
+INFO - 22/12/2020 14:46:40 - 00:00:05,989 
+INFO - 22/12/2020 14:46:40 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:46:41 -  
+INFO - 22/12/2020 14:46:41 - ************* ALGUMAS FUNCOES PARA MOBILE ************ 
+INFO - 22/12/2020 14:46:41 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:46:41 - Valida processo se ativo: qemu-system-x86_64.exe 
+INFO - 22/12/2020 14:46:41 - Processo Ativo: false 
+INFO - 22/12/2020 14:46:41 - 00:00:00,072 
+INFO - 22/12/2020 14:46:41 - Status: ===========> FAILED <=========== 
+INFO - 22/12/2020 14:46:41 -  
+INFO - 22/12/2020 14:46:41 - ************* DIVERSAS FUNCOES PARA MOBILE ************ 
+INFO - 22/12/2020 14:46:41 - Sysdate: yyyy-MM-dd 2020-12-22 
+INFO - 22/12/2020 14:46:41 - Valida processo se ativo: qemu-system-x86_64.exe 
+INFO - 22/12/2020 14:46:41 - Processo Ativo: false 
+INFO - 22/12/2020 14:46:41 - 00:00:00,041 
+INFO - 22/12/2020 14:46:41 - Status: ===========> FAILED <=========== 
