@@ -1,6 +1,6 @@
 # Framework Automation WEB, Mobile, API and DeskTop
 
-@Autor Douglas Gelli
+@Autor Fredi Roldan
 
 @building June/2020
 
