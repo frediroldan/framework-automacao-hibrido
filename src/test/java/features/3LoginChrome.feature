@@ -19,7 +19,7 @@ Feature: Logar na aplicacao de cadastro de clientes da Conductor
     Then a aplicacao exibe a mensagem "<MENSAGEM>" de bem vindo
     And clico no botao Sair
 
-    Examples: 
-      | LOGIN                  | PASSWORD | MENSAGEM                  |
-      | frediroldan@gmail.com | 12345 | Bem vindo, Fredi Roldan! |
-      | frediroldan@gmail.com | 12345678 | Bem vindo Fredi Roldan!  |
+    Examples:
+      | LOGIN                 | PASSWORD | MENSAGEM          |
+      | frediroldan@gmail.com | 12345    | Bem vindo, Fredi! |
+      | frediroldan@gmail.com | 12345    | Bem vindo, Fredi! |
