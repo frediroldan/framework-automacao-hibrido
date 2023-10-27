@@ -1,5 +1,5 @@
 #language: en
-#author: Douglas
+#author: Fredi Roldan
 #version: 1.1
 #encoding: UTF-8
 @login @regression @chrome @closeBrowser
@@ -10,7 +10,7 @@ Feature: Logar na aplicacao de cadastro de clientes da Conductor
       #| Objetivo                        | Resultado esperado                          |
       | Logar na Aplicacao da Conductor | Logar na Aplicacao da Conductor com sucesso |
 
-  @CT001
+  @CT0011
   Scenario Outline: Logar na Aplicacao da Conductor com sucesso com o Chrome.
     Given que estou na pagina de login atraves da url
     When preencho o campo login "<LOGIN>"
@@ -21,5 +21,5 @@ Feature: Logar na aplicacao de cadastro de clientes da Conductor
 
     Examples: 
       | LOGIN                  | PASSWORD | MENSAGEM                  |
-      | douglasgelli@gmail.com | 12345678 | Bem vindo, Douglas Gelli! |
-      | douglasgelli@gmail.com | 12345678 | Bem vindo Douglas Gelli!  |
+      | frediroldan@gmail.com | 12345 | Bem vindo, Fredi Roldan! |
+      | frediroldan@gmail.com | 12345678 | Bem vindo Fredi Roldan!  |

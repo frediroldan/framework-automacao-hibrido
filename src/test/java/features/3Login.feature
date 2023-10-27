@@ -21,6 +21,6 @@ Feature: Logar na aplicacao de cadastro de clientes da Conductor
 
     Examples: 
       | LOGIN                  | PASSWORD | MENSAGEM                  |
-      | douglasgelli@gmail.com | 12345678 | Bem vindo, Douglas Gelli! |
-      | douglasgelli@gmail.com | 12345678 | Bem vindo Douglas Gelli!  |
+      | frediroldan@gmail.com | 12345678 | Bem vindo, Fredi Roldan! |
+      | frediroldan@gmail.com | 12345678 | Bem vindo, Fredi Roldan!  |
 
